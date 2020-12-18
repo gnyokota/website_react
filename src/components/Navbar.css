@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
-
 .navbar {
   background: #242424;
   height: 80px;
@@ -28,10 +27,12 @@
   text-decoration: none;
   font-size: 2rem;
   color: #fff;
+  font-weight: bold;
 }
 
 .nav-icon {
-  margin: 2px 4px;
+  margin: 0 4px;
+  padding-top: 2px;
 }
 
 .click-icon-menu {
@@ -67,7 +68,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  transition: all 100ms ease;
+  transition: all 250ms ease;
 }
 
 .nav-signup {
@@ -89,10 +90,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     position: absolute;
+    transform: translatex(200%);
     top: 80px;
-    right: 10;
     opacity: 1;
     transition: all 0.5s ease;
   }
@@ -100,11 +101,12 @@
   .nav-menu.active {
     background: #242222;
     opacity: 1;
+    position: absolute;
     transition: all 0.5s ease;
     z-index: 1;
     width: 80%;
     padding: 1rem 0;
-    margin: 5px;
+    transform: translatex(0);
   }
 
   .nav-links {

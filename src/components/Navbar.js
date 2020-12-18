@@ -28,14 +28,14 @@ const Navbar = () => {
     }
   };
 
-  // the sign up button disappers when the screen is lower than 760px
-  window.addEventListener("resize", showButton);
-
   //to avoid the sign up button to appear when the screen is refreshed
   //the empty array means that the useEffect will run onMount.
   useEffect(() => {
-    showButton();
+    setButton();
   }, []);
+
+  // the sign up button disappers when the screen is lower than 760px
+  window.addEventListener("resize", showButton);
 
   return (
     <div>
