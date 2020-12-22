@@ -10,7 +10,7 @@ const TopSection = () => {
       <video autoPlay loop muted id="video">
         <source src={Video3} type="video/mp4" />
       </video>
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>FIND YOUR PLACE</h1>
       <p>What are you wating for?</p>
       <div className="top-section-btns">
         <Button
@@ -18,7 +18,7 @@ const TopSection = () => {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
+          START IT
         </Button>
         <Button
           myPath={"products"}
@@ -26,7 +26,7 @@ const TopSection = () => {
           buttonSize="btn--large"
         >
           <div className="top-btn">
-            WATCH TRAILER <AiFillPlayCircle className="top-section-icon" />
+            EXPERIENCE IT <AiFillPlayCircle className="top-section-icon" />
           </div>
         </Button>
       </div>

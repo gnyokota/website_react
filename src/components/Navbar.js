@@ -83,7 +83,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Offers
               </Link>
             </li>
             <li className="nav-item">
@@ -98,7 +98,7 @@ const Navbar = () => {
           </ul>
           {button ? (
             <Button myPath={"signup"} buttonStyle="btn--outline">
-              SIGN UP
+              JOIN US
             </Button>
           ) : (
             ""
