@@ -6,6 +6,7 @@
 
 .card h1 {
   text-align: center;
+  color: #0f3057;
 }
 
 .card-container {
@@ -54,8 +55,8 @@
   max-width: 90px;
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #f6830f;
+  color: #e8e8e8;
+  background-color: #008891;
   box-sizing: border-box;
 }
 
@@ -83,7 +84,7 @@
 }
 
 .cards-item-text {
-  color: #252e48;
+  color: #0f3057;
   font-size: 18px;
   line-height: 24px;
 }

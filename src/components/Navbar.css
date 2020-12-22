@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
 .navbar {
-  background: #242424;
+  background: #0f3057;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
   align-items: center;
   text-decoration: none;
   font-size: 2rem;
-  color: #fff;
+  color: #e8e8e8;
   font-weight: bold;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .click-icon-menu {
-  color: #fff;
+  color: #e8e8e8;
   font-size: 2rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #e8e8e8;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -67,7 +67,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #e8e8e8;
   transition: all 250ms ease;
 }
 
@@ -98,7 +98,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #0f3057;
     opacity: 1;
     position: absolute;
     transition: all 0.5s ease;
@@ -118,8 +118,8 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: #e8e8e8;
+    color: #0f3057;
     border-radius: 0;
   }
 
@@ -141,7 +141,7 @@
   }
 
   .click-icon-times {
-    color: #fff;
+    color: #e8e8e8;
     font-size: 2rem;
   }
 
@@ -154,15 +154,15 @@
     text-decoration: none;
     font-size: 1rem;
     background-color: transparent;
-    color: #fff;
+    color: #e8e8e8;
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #e8e8e8;
     transition: all 0.3s ease-out;
   }
 
   .nav-signup:hover {
-    background: #fff;
-    color: #242424;
+    background: #e8e8e8;
+    color: #0f3057;
     transition: 250ms;
   }
 }
