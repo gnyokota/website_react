@@ -38,36 +38,36 @@ const Footer = () => {
         <div className="footer-link-items">
           <h2>About Us</h2>
           <Link to="/singup">How it works </Link>
-          <Link to="/">Testimonials </Link>
-          <Link to="/">Career</Link>
-          <Link to="/">Privacy Police</Link>
-          <Link to="/">Terms of Service</Link>
+          <Link to="/website_react">Testimonials </Link>
+          <Link to="/website_react">Career</Link>
+          <Link to="/website_react">Privacy Police</Link>
+          <Link to="/website_react">Terms of Service</Link>
         </div>
         <div className="footer-link-items">
           <h2>Contact Us</h2>
-          <Link to="/">Contact </Link>
-          <Link to="/">Support</Link>
-          <Link to="/">Destination</Link>
-          <Link to="/">Sponsorship</Link>
+          <Link to="/website_react">Contact </Link>
+          <Link to="/website_react">Support</Link>
+          <Link to="/website_react">Destination</Link>
+          <Link to="/website_react">Sponsorship</Link>
         </div>
         <div className="footer-link-items">
           <h2>Social Media</h2>
-          <Link to="/">Instagram</Link>
-          <Link to="/">Facebook</Link>
-          <Link to="/">Youtube</Link>
-          <Link to="/">Twitter</Link>
+          <Link to="/website_react">Instagram</Link>
+          <Link to="/website_react">Facebook</Link>
+          <Link to="/website_react">Youtube</Link>
+          <Link to="/website_react">Twitter</Link>
         </div>
       </div>
       <section className="social-media">
         <div className="footer-logo">
-          <Link to="/" className="social-logo">
+          <Link to="/website_react" className="social-logo">
             GNY <FaGithubAlt className="footer-icon" />
           </Link>
         </div>
         <small className="website-rights">GNY © 2020 </small>
         <div className="social-icons">
           <Link
-            to="/"
+            to="/website_react"
             //_blank is used to be oppened in a new window
             target="_blank"
             //   this type of label does not add the name to the screen
@@ -77,7 +77,7 @@ const Footer = () => {
             <FaFacebook />
           </Link>
           <Link
-            to="/"
+            to="/website_react"
             target="_blank"
             aria-label="instagram"
             className="social-icon-link instagram"
@@ -85,7 +85,7 @@ const Footer = () => {
             <FaInstagram />
           </Link>
           <Link
-            to="/"
+            to="/website_react"
             target="_blank"
             aria-label="youtube"
             className="social-icon-link youtube"
@@ -93,7 +93,7 @@ const Footer = () => {
             <FaYoutube />
           </Link>
           <Link
-            to="/"
+            to="/website_react"
             target="_blank"
             aria-label="twitter"
             className="social-icon-link twitter"

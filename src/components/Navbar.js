@@ -44,7 +44,11 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           {/* slash (/) means home  */}
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/website_react"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             GNY <FaGithubAlt className="nav-icon" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -56,7 +60,11 @@ const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/website_react"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
