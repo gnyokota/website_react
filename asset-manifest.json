@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/website_react/static/css/main.405bb880.chunk.css",
-    "main.js": "/website_react/static/js/main.a6482ca8.chunk.js",
-    "main.js.map": "/website_react/static/js/main.a6482ca8.chunk.js.map",
+    "main.css": "/website_react/static/css/main.442b5c96.chunk.css",
+    "main.js": "/website_react/static/js/main.0b625d82.chunk.js",
+    "main.js.map": "/website_react/static/js/main.0b625d82.chunk.js.map",
     "runtime-main.js": "/website_react/static/js/runtime-main.50d8eeea.js",
     "runtime-main.js.map": "/website_react/static/js/runtime-main.50d8eeea.js.map",
     "static/js/2.fcc329f9.chunk.js": "/website_react/static/js/2.fcc329f9.chunk.js",
     "static/js/2.fcc329f9.chunk.js.map": "/website_react/static/js/2.fcc329f9.chunk.js.map",
     "index.html": "/website_react/index.html",
-    "static/css/main.405bb880.chunk.css.map": "/website_react/static/css/main.405bb880.chunk.css.map",
+    "static/css/main.442b5c96.chunk.css.map": "/website_react/static/css/main.442b5c96.chunk.css.map",
     "static/js/2.fcc329f9.chunk.js.LICENSE.txt": "/website_react/static/js/2.fcc329f9.chunk.js.LICENSE.txt",
     "static/media/Video3.ef7affef.mp4": "/website_react/static/media/Video3.ef7affef.mp4",
     "static/media/index.css": "/website_react/static/media/img-3.6d683c0e.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.50d8eeea.js",
     "static/js/2.fcc329f9.chunk.js",
-    "static/css/main.405bb880.chunk.css",
-    "static/js/main.a6482ca8.chunk.js"
+    "static/css/main.442b5c96.chunk.css",
+    "static/js/main.0b625d82.chunk.js"
   ]
 }
