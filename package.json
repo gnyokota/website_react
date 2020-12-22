@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/gnyokota/website_react",
   "name": "website_react",
+  "homepage": "http://gnyokota.github.io/website_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
