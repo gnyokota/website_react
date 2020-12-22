@@ -21,7 +21,7 @@ const Navbar = () => {
 
   const showButton = () => {
     // this width needs to be set equal to the width of media query
-    if (window.innerWidth <= 760) {
+    if (window.innerWidth <= 900) {
       setButton(false);
     } else {
       setButton(true);
@@ -31,7 +31,9 @@ const Navbar = () => {
   //to avoid the sign up button to appear when the screen is refreshed
   //the empty array means that the useEffect will run onMount.
   useEffect(() => {
-    setButton();
+    if (window.innerWidth <= 900) {
+      setButton();
+    }
   }, []);
 
   // the sign up button disappers when the screen is lower than 760px
@@ -78,7 +80,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/signup"
                 className="nav-signup"
                 onClick={closeMobileMenu}
               >
@@ -86,7 +88,13 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button ? <Button buttonStyle="btn--outline">SIGN UP</Button> : ""}
+          {button ? (
+            <Button myPath={"signup"} buttonStyle="btn--outline">
+              SIGN UP
+            </Button>
+          ) : (
+            ""
+          )}
         </div>
       </nav>
     </div>
