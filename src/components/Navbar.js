@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="navbar-container">
           {/* slash (/) means home  */}
           <Link
-            to="/website_react"
+            to="/website_react/"
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
@@ -61,7 +61,7 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/website_react"
+                to="/website_react/"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
